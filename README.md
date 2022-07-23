@@ -13,3 +13,6 @@ this file contains for_each and for_each_ex functions to handle static reflectio
 ### MetaGets.h
 this file defines functions to read multi filed or multi meta data of static reflection object, and for handle result sets functions for_each and for_each_ex.
 this is an unnecessary expansion
+
+### main.cpp
+this static reflection library test.
