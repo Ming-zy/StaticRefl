@@ -134,7 +134,7 @@ namespace details {                                                             
         reference_type obj;                                                                 \
         TField(reference_type o) : obj(o) { }                                               \
         value_type value() noexcept                                                         \
-	    { return obj.STRIP(arg); }                                                          \
+        { return obj.STRIP(arg); }                                                          \
         constexpr static const char* name() noexcept                                        \
         { return TO_STRING_WIN(arg) + 1; }                                                  \
         constexpr static const char* super_name() noexcept                                  \
@@ -346,9 +346,9 @@ namespace details {                                                             
         reference_type obj;                                                                 \
         TField(reference_type o) : obj(o) { }                                               \
         value_type value() noexcept                                                         \
-	    { return obj.STRIP(arg); }                                                          \
+        { return obj.STRIP(arg); }                                                          \
         constexpr static const char* name() noexcept                                        \
-        { return TO_STRING(arg); }                                                      \
+        { return TO_STRING(arg); }                                                          \
         constexpr static const char* super_name() noexcept                                  \
         { return STR(st_type); }                                                            \
         constexpr static const char* full_name() noexcept                                   \
